@@ -4,20 +4,28 @@
 1-
 char *chargerchaine (int N)
 char  *chaine =(char*
-gets( chaine )
+  gets( chaine )
 if(chaine==NULL)
-printf("erreur; n)
+  printf("erreur; n)
 retuirn 1;
-printf ("veuillez saisir une chaine de caracteres :",N)
-scanf ("%c n,chaine);
+ printf ("veuillez saisir une chaine de caracteres :",N)
+ scanf ("%c n,chaine);
 return chaine;
 2-
 int longueur(char *ch)
-int i=0;
-while(chaine [i]!= 0)
-i++;
+ int i=0;
+  while(chaine [i]!= 0)
+  i++;
 return i;
 3-
 void charger Tab(char *p,char Tab [])
-strcpy(Tab,p);
-void inverser TAB(char Tabn[]ةؤاضق لإ FD
+4-
+void inverser TAB(char Tab[])
+int m;
+{
+for (i=0;i<m;i++)
+ T[i]=Tab[m-i-1];
+ T[m]='0'
+}
+5-
+void afficherTab(char
