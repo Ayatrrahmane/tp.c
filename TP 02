@@ -19,6 +19,9 @@ int longueur(char *ch)
 return i;
 3-
 void charger Tab(char *p,char Tab [])
+ for (int i=0;i<p;i++)
+  Tab[i]=p[i];
+  Tab[p]='0';
 4-
 void inverser TAB(char Tab[])
 int m;
@@ -28,4 +31,6 @@ for (i=0;i<m;i++)
  T[m]='0'
 }
 5-
-void afficherTab(char
+void afficherTab(char Tab[], int m;
+for (inti=0;i<m; i++)
+printf("%c",Tab[i]);
