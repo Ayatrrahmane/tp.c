@@ -33,4 +33,25 @@ for (i=0;i<m;i++)
 5-
 void afficherTab(char Tab[], int m;
 for (inti=0;i<m; i++)
-printf("%c",Tab[i]);
+  printf("%c",Tab[i]);
+  printf("n");
+
+ int main(){
+int N;
+printf("entrez la taille de la chaine :");
+scanf ("%d",&N);
+
+char *chaine=chargerchaine(N);
+ int longueur=longueur(chaine);
+char Tab[N],T[N];
+chargerTab(chaine,Tab);
+
+inverseTab(Tab,T,longueur);
+printf("la chaine inverser est :");
+
+afficherTab(t,longueur);
+free(chaine);
+return 0;
+
+
+
