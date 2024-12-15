@@ -1,13 +1,62 @@
+#include<stdoi.h>
+#include<stdlib.h>
+
 typedef struct element{
 int val;
 struct element  *suivant;
 }element ;
-1-
-element liste *creerliste ()
- liste *l=Null;
- return l;
-2-
 
+1-element liste *creerliste ()
+ *liste  =Null;
+ return l;
+2-chargerliste 
+
+
+
+3-afficherliste (l)
+afficherliste(element*liste){
+while(liste!=Null)
+ printf("%d ",liste->val);
+ liste=liste->suivant
+ printf("Null")}
+4-element *supprimerEnFin(Element *liste){
+if(liste==Null) 
+return NULL;
+element *courant=liste,*temp ;
+courant=malloc(sizeof(element));
+while(courant->suifant != NULL){
+ temp=courant;
+courant->suivant;}
+temp->suivant=courant->suivant;
+free(courant);
+return liste;
+}
+
+5-liste AjoutDebut(liste *l,int val)
+element *nouveau=malloc(sizeof(element));
+nouveau->val=val;
+nouveau->suivant=liste;
+return nouveau;
+
+6-videb liste
+void viderliste(liste*l)
+while(l!=Null)
+
+
+int main(){inttab[10]={1,3,5,7,9,11,13,20};
+element*liste=creeliste();
+
+element*l=chargerliste(Tab,10,liste);
+  afficherliste(L);
+
+element*L1=supprimerEnFin(L);
+afficherliste(L1);
+
+element*L2=ajouterEnDebut(L1,40);
+afficherliste(L2);
+
+videliste(L2);
+return 0;
 
 
 
