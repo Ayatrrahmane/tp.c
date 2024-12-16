@@ -4,9 +4,9 @@
 1-
 char *chargerchaine (int N)
 char  *chaine =(char*
-  gets( chaine )
+  gets( chaine );
 if(chaine==NULL)
-  printf("erreur";\ n)
+  printf("erreur",\ n);
 retuirn 1;
  printf ("veuillez saisir une chaine de caracteres :",N)
  scanf ("%c \n",chaine);
