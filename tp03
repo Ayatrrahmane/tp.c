@@ -18,7 +18,8 @@ afficherliste(element*liste){
 while(liste!=Null)
  printf("%d ",liste->val);
  liste=liste->suivant
- printf("Null")}
+ printf("Null");}
+
 4-element *supprimerEnFin(Element *liste){
 if(liste==Null) 
 return NULL;
@@ -40,8 +41,8 @@ return nouveau;
 
 6-videb liste
 void viderliste(liste*l)
-while(l!=Null)
-
+liste *l=Null;
+return l;
 
 int main(){inttab[10]={1,3,5,7,9,11,13,20};
 element*liste=creeliste();
